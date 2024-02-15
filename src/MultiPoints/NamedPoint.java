@@ -7,43 +7,39 @@ import java.util.*;
  * Description: This code will gather 6 different points and determine the shortest distance
  * and neatly print them.
  */
-public class NamedPoint extends Point{
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+    public class NamedPoint extends Point {
+        private String name;
 
-        System.out.println("Enter p1 values: ");
-        Point pA = new Point(scan.nextDouble(), scan.nextDouble());
-        System.out.println("Enter p2 values: ");
-        Point pB = new Point(scan.nextDouble(), scan.nextDouble());
-        System.out.println("Enter p1 values: ");
-        Point pC = new Point(scan.nextDouble(), scan.nextDouble());
-        System.out.println("Enter p2 values: ");
-        Point pD = new Point(scan.nextDouble(), scan.nextDouble());
-        System.out.println("Enter p1 values: ");
-        Point pE = new Point(scan.nextDouble(), scan.nextDouble());
-        System.out.println("Enter p2 values: ");
-        Point pF = new Point(scan.nextDouble(), scan.nextDouble());
+        public NamedPoint(String name, double x, double y) {
+            super(x, y);
+            this.name = name;
+        }
 
-        System.out.println("pA: " + pA.toString());
-        System.out.println("pB: " + pB.toString());
-        System.out.println("pC: " + pC.toString());
-        System.out.println("pD: " + pD.toString());
-        System.out.println("pE: " + pE.toString());
-        System.out.println("pF: " + pF.toString());
+        public String getName() {
+            return name;
+        }
 
-        Point[] points = {pA, pB, pC, pD, pE, pF};
+        @Override
+        public String toString() {
+            return name + super.toString();
+        }
 
+        public static NamedPoint[] enterNamedPoints(Scanner scan) {
+            System.out.println("Enter 6 points of x and y coordinates:");
+            NamedPoint[] points = new NamedPoint[6];
+            for (int i = 0; i < points.length; i++) {
+                System.out.print("Enter coordinates for point " + (i + 1) + " (x y): ");
+                double x = scan.nextDouble();
+                double y = scan.nextDouble();
+                points[i] = new NamedPoint("p" + (i + 1), x, y);            }
+            return points;
+        }
 
-        SixPointTester sixPointTester = new SixPointTester();
-            sixPointTester.shortestDistance(points);
-
-
-
-
-
-
-
-
-
+        // Method to print points
+        public static void printPoints(Point[] points) {
+            for (int i = 0; i < points.length; i++) {
+                System.out.println(points[i].toString());
+            }
+        }
     }
-}
+

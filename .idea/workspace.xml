@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f728b43-8ddd-4c61-bcea-a5ca85294b5b" name="Changes" comment="Animal abd Super demo">
-      <change afterPath="$PROJECT_DIR$/src/MultiPoints/NamedPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiPoints/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiPoints/PointTesterDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiPoints/SixPointTester.java" afterDir="false" />
+    <list default="true" id="4f728b43-8ddd-4c61-bcea-a5ca85294b5b" name="Changes" comment="Animal Super demo and Multi Points">
+      <change afterPath="$PROJECT_DIR$/src/MultiPoints/NamePointTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiPoints/NamedPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiPoints/NamedPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <workItem from="1707321942868" duration="4580000" />
       <workItem from="1707367583695" duration="385000" />
       <workItem from="1707754835360" duration="3187000" />
-      <workItem from="1707926610089" duration="6232000" />
+      <workItem from="1707926610089" duration="10281000" />
     </task>
     <task id="LOCAL-00001" summary="Animal">
       <option name="closed" value="true" />
@@ -77,7 +75,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707756134338</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Animal Super demo and Multi Points">
+      <option name="closed" value="true" />
+      <created>1707937541315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707937541315</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Animal" />
     <MESSAGE value="Animal abd Super demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Animal abd Super demo" />
+    <MESSAGE value="Animal Super demo and Multi Points" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animal Super demo and Multi Points" />
   </component>
 </project>
