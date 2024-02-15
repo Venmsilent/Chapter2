@@ -25,13 +25,14 @@ import java.util.*;
         }
 
         public static NamedPoint[] enterNamedPoints(Scanner scan) {
-            System.out.println("Enter 6 points of x and y coordinates:");
+            String[] names = {"pA", "pB", "pC", "pD", "pE", "pF"};
             NamedPoint[] points = new NamedPoint[6];
             for (int i = 0; i < points.length; i++) {
                 System.out.print("Enter coordinates for point " + (i + 1) + " (x y): ");
                 double x = scan.nextDouble();
                 double y = scan.nextDouble();
-                points[i] = new NamedPoint("p" + (i + 1), x, y);            }
+                points[i] = new NamedPoint(String.valueOf(names[i]), x, y);            }
+
             return points;
         }
 
