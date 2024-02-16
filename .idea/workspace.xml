@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f728b43-8ddd-4c61-bcea-a5ca85294b5b" name="Changes" comment="Animal Super demo and Multi Points">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4f728b43-8ddd-4c61-bcea-a5ca85294b5b" name="Changes" comment="Animal Super demo and Multi Points" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +55,7 @@
       <workItem from="1707754835360" duration="3187000" />
       <workItem from="1707926610089" duration="12198000" />
       <workItem from="1708036093330" duration="777000" />
-      <workItem from="1708099435588" duration="862000" />
+      <workItem from="1708099435588" duration="1463000" />
     </task>
     <task id="LOCAL-00001" summary="Animal">
       <option name="closed" value="true" />
@@ -99,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708033129245</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Animal Super demo and Multi Points">
+      <option name="closed" value="true" />
+      <created>1708113410669</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708113410669</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

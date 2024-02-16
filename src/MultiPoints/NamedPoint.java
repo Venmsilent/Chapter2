@@ -25,16 +25,18 @@ import java.util.*;
         }
 
         public static NamedPoint[] enterNamedPoints(Scanner scan) {
-            String[] names = {"pA", "pB", "pC", "pD", "pE", "pF"};
             NamedPoint[] points = new NamedPoint[6];
+            char label = 'a';
             for (int i = 0; i < points.length; i++) {
-                System.out.print("Enter coordinates for point " + (i + 1) + " (x y): ");
+                System.out.print("Enter coordinates for point " + (char)(label) + " (x y): ");
                 double x = scan.nextDouble();
                 double y = scan.nextDouble();
-                points[i] = new NamedPoint(String.valueOf(names[i]), x, y);            }
-
+                points[i] = new NamedPoint("Point " + (char)(label), x, y);
+                label++;
+            }
             return points;
         }
+
 
         // Method to print points
         public static void printPoints(Point[] points) {
